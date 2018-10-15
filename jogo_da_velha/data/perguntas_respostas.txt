@@ -1,0 +1,30 @@
+Qual célula não apresenta membrana plasmáica?;PROCARIONTE
+È um tipo de trasporte passivo.;OSMOSE
+A membrana plasmática é constituida por uma bicamada de _________??;FOSFOLIPIDEO
+Que tipo de molécula é inserida na formação da membrana plasmatica?;PROTEINA
+É uma forma de como os transportes celulares acontecem na membrana ....;DIFUSAO
+Moléculas pequenas e íons podem passar pela membrana através de que?;TRANSPORTADORES
+É uma das 3 funções principais da membrana;REVESTIMENTO
+Qual o processo em que consiste a expulsão de substâncias presente na célula?;EXOCITOSE
+Qual o processo em que as células vivas absorvem material através da membrana?;ENDOCITOSE
+Nome do transporte em que apenas uma molécula (isolada) é transportada.;UNIPORTE
+Nome do transporte em que duas ou mais substâncias migram na mesma direção.;SIMPORTE
+Nome do transporte onde duas moléculas diferentes se transportam em direções opostas.;ANTIPORTE
+Difusão ______, onde existe auxílio de proteínas para o transporte.;FACILITADA
+Transportes que acontecem com gasto de energia é denominado de que?;ATIVO
+O tipo de transporte mais utilizado na membrana plasmática.;PASSIVO
+Qual processo que é responsável pela troca de informações entre as células.;SINALIZAÇAO
+Sem ele não é possível certas transportações e sinalizações.;RECEPTOR
+É um dos movimentos dos fosfolipídeos.;FLIPFLOP
+Uma molécula que possui região polar e apolar é chamada de ...;ANFIPATICA
+Uma substância ___________ tem aversão a água, não se dissolve em agua (APOLAR);HIDROFOBICA
+Uma substância ___________ tem afinidade a água, se dissolve bem (POLAR);HIDROFILICA
+Uma das informações que a célula recebe.;MORRER
+Todos os processos de sinalização são usados unicamente e em diferentes ...;TECIDOS
+Um dos tipos de Sinalização.;NEURONAL
+Enquanto uma célula ativa gera energia, uma célula passiva ...;RECEBE
+Permeabilidade Seletiva é uma de suas principais funções.;MEMBRANA
+Comunicações entre as células alteram além de seus resultados, sua?;FISIOLOGIA
+A membrana plasmática, pode ser chamada também de Membrana ...;CELULAR
+A espessura da membrana pode variar de 6 a quantos mm?;DEZ
+Um tipo de proteína que se situa em apenas um dos lados da bicamada lipídica.;PERIFERICA
