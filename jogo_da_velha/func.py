@@ -25,7 +25,7 @@ def recuperaPerguntasRespostas():
 	arq = open('data/continuar.txt', 'r',encoding="latin-1")
 	texto = arq.readlines()#.decode('utf-8')
 	if (len(texto) == 0):
-		print("entou")
+		#print("entou")
 		arq = open('data/perguntas_respostas.txt', 'r',encoding="latin-1")
 		texto = arq.readlines() #.decode('utf-8')
 

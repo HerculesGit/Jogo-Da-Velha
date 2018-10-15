@@ -16,14 +16,14 @@ def restart_program():
 
 def continuar_program():
 	setStatus("2")
-	print("status",recuperaStatus())
+	#print("status",recuperaStatus())
 	escreveContinuar(dic_perguntasRespostas)
 	python = sys.executable
 	os.execl(python, python, * sys.argv)
 
 if (recuperaStatus() == "1"):
 	naoContinuar()
-print("status",recuperaStatus())
+#print("status",recuperaStatus())
 
 
 dic_perguntasRespostas = recuperaPerguntasRespostas()
@@ -31,7 +31,7 @@ pergunta, resposta = escolhePergunta(dic_perguntasRespostas)
 dic_perguntasRespostas.pop(pergunta)
 #print(len(dic_perguntasRespostas))
 
-print("Pergunta selecionada: ", pergunta, resposta)
+#print("Pergunta selecionada: ", pergunta, resposta)
 
 respostaJogador = []
 for i in range(100):
@@ -74,7 +74,7 @@ def desempilhar():
 	if (indicePilha > 0):
 		listaLabels[indicePilha].place(x=2400,y=120)
 		indicePilha -=1
-		print(indicePilha)
+		#print(indicePilha)
 
 # Posiciona os labels
 def empilhar():
@@ -101,12 +101,12 @@ def criaLabels():
 def carregaImagens():
 	for i in range(7):
 		caminho = "image/{0}.png".format(i)
-		print(caminho)
+		#print(caminho)
 		listaImagens.append(PhotoImage(file=caminho))
 
-def pegaTexto(b):
-	print("chupe")
-	print(b.cget('text'))
+#def pegaTexto(b):
+	#print("chupe")
+	#print(b.cget('text'))
 
 
 def desabilitaTeclado():
@@ -117,11 +117,11 @@ def desabilitaTeclado():
 def verificaTeclaPressionada(botao):		# verifica a tela clicada
 	global qtdErro
 	global pontuacaoErros
-	print(botao.cget('text'))
+	#print(botao.cget('text'))
 
 	# se a letra nao estiver na palavra
 	if (validaLetra(botao.cget('text'), resposta) == False):
-		print("Errou")
+		#print("Errou")
 		botao.config(bg='red')
 		desempilhar()
 		qtdErro+=1
@@ -137,7 +137,7 @@ def verificaTeclaPressionada(botao):		# verifica a tela clicada
 	else:	# se estiver
 		botao.config(bg='green')
 		mudaLabel(botao.cget('text'))
-		print("<>",isWinner(respostaJogador, resposta)) 	# resposta Jogador eh uma lista, resposta eh uma string
+		#print("<>",isWinner(respostaJogador, resposta)) 	# resposta Jogador eh uma lista, resposta eh uma string
 
 		# se ganhou
 		if (isWinner(respostaJogador, resposta)):
@@ -160,7 +160,7 @@ def mudaLabel(letra):
 			listaLabelsResposta[indice].config(text=letra)
 			respostaJogador[indice] = letra
 		indice+=1
-	print(">>",respostaJogador)
+	#print(">>",respostaJogador)
 
 
 
